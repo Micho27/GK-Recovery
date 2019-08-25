@@ -1,26 +1,32 @@
 body {
-	background-color: #A9A9A9;
+    background-color: #000000;
 }
 
 p {
-	color: black;
+	color: #77FF07;
 }
 
 div {
 	margin-left: 130px;
 }
+
 header {
-	background-image:url("images/Recovery.jpg");
+	background-image: url("images/Header.png");
 	padding: 10px;
-	color: white;
+	color: #ABCDEF;
+	background-repeat: repeat-y;
+	background-size: 30% 100%;
+	background-position: 50%;
+	height: 300px;
 }
 
+/* menu and link editing vertical menu on side*/
 #menu {
   list-style-type: none;
   margin: 0;
   padding: 0;
   width: 100px;
-  background-color: #f1f1f1;
+  background-color: #ABCDEF;
   position: absolute;
 }
 
