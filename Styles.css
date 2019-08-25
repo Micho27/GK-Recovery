@@ -1,0 +1,38 @@
+body {
+	background-color: #A9A9A9;
+}
+
+p {
+	color: black;
+}
+
+div {
+	margin-left: 130px;
+}
+header {
+	background-image:url("images/Recovery.jpg");
+	padding: 10px;
+	color: white;
+}
+
+#menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100px;
+  background-color: #f1f1f1;
+  position: absolute;
+}
+
+#link{
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+#link:hover {
+  background-color: #555;
+  color: white;
+}
