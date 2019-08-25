@@ -10,7 +10,7 @@ function MenuAndHeader() {
 	var div=document.createElement("div");
 	div.setAttribute('id','menu');
 	div.innerHTML+="<a id='link' href='index.html'>Home</a>";
-	div.innerHTML+="<a id='link' href='products.html'>Products</a>";
+	div.innerHTML+="<a id='link' href='products.html'>Services</a>";
 	div.innerHTML+="<a id='link' href='contact.html'>Contact</a>";
 	div.innerHTML+="<a id='link' href='about.html'>About</a>";
 	div.innerHTML+="<a id='link' href='news.html'>News</a>";
