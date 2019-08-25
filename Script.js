@@ -4,7 +4,6 @@ function MenuAndHeader() {
 
 	//create header
 	var header=document.createElement("header");
-	header.innerHTML+="<h1>GK Recovery Products</h1>";
 
 	//create menu and fill it
 	var div=document.createElement("div");
