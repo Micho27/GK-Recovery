@@ -26,11 +26,13 @@ header {
 	background-size: 30% 100%;
 	background-position: 50%;
 	height:45%;
+	width:100%;
 }
 
 footer {
 	background-color: black;
 	color: white;
+	width: 100%;
 }
 
 ul {
