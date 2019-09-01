@@ -14,13 +14,7 @@ function MenuAndHeader() {
 	div.innerHTML+="<a id='link' href='about.html'>About</a>";
 	div.innerHTML+="<a id='link' href='news.html'>News</a>";
 
-	var footer=document.createElement("footer");
-	footer.innerHTML+="<p> E-mail:<a href='mailto:gkrecoveryproducts@gmail.com'>gkrecoveryproducts@gmail.com</a></p>";
-	footer.innerHTML+="<p> Phone: 087 928-2114";
-	footer.innerHTML+="<a href='https://www.facebook.com/gkrecoveryproducts'>Facebook</a><p>or</p><a href='https://www.instagram.com/gkrecovpro/'>Instagram</a>";
-	
 	//insert menu/header/footer
 	body.insertBefore(header,main);
 	body.insertBefore(div,main);
-	body.append(footer);
 }
