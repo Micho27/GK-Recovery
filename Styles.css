@@ -24,7 +24,8 @@ li, ul {
 }
 
 #products {
-	height: 50%;
+	float: right;
+	height: 100%;
 	width: 50%;
 }
 
